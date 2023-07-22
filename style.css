@@ -1,0 +1,115 @@
+
+body {
+    margin: 0;
+  }
+  .background {
+    display: flex;
+    justify-content:center;
+    align-items:center; 
+    width: 100%;
+    min-height: 100vh;
+    background-color: #faf0e6;
+    border: 0;
+    
+  }
+  
+  .image-box {
+    display: flex;
+    align-items: center;
+    height: 325px;
+    
+  }
+  
+  .image-box img {
+    width: 215px;
+    border-radius: 8px 0 0 8px;
+    height: 325px;
+  }
+  
+  .text-box {
+    display: flex;
+    flex-direction:column;
+    background: white;
+    width: 215px;
+    border-radius: 0 8px 8px 0;
+    
+  }
+  
+  div h1 {
+    font-family: Arial;
+    font-size: 10px;
+    letter-spacing: 5px;
+    padding: 20px 0px 15px 20px;
+    color: rgb(202, 195, 195);
+  }
+  div h2 {
+    padding: 0px 0px 20px 20px;
+    font-size: 25px;
+    line-height: 25px;
+    max-width: 150px;
+  }
+  
+  div p {
+    max-width: 170px;
+    font-family: Arial;
+    color: rgb(202, 195, 195);
+    padding: 0px 20px 15px;
+    line-height: 17px;
+    font-size: 12px;
+  }
+  
+  div h3 {
+    padding: 2px 20px;
+    color: rgb(68, 109, 68);
+    font-size: 23px;
+    word-spacing: 10px;
+  }
+  
+  div sup {
+    font-size: 10px;
+   
+    color: rgb(206, 206, 206);
+  }
+  
+  button {
+    display: flex;
+    margin: 20px;
+    height: 38px;
+    background-color: rgb(68, 109, 68);
+    border: none;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border:2px solid #000000 ;
+  }
+  button:active {
+    background-color: rgb(6, 52, 6);
+  }
+  
+  .text-box button img {
+    height: 12px;
+    margin-right: 8px;
+  }
+
+  .minor button img:hover{
+    cursor: pointer;
+    box-flex-group: #000;
+    color: #000000;
+    border: 2px solid #000000;
+  }
+  
+  div h1, h2, h3, p {
+    margin: 0;
+  }
+  
+ 
